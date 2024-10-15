@@ -22,7 +22,6 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install yt-dlp
-        pip install unittest
 
     - name: Rodar testes
       run: |
