@@ -1,13 +1,19 @@
-# YouTubePlaylistDownloader
+# YouTube Audio Downloader 🎵
 
-Projeto para baixar vídeos de uma playlist do YouTube e convertê-los para o formato MP3.
+Este script baixa o áudio de vídeos do YouTube e o salva como arquivo MP3 na pasta `downloads`.
 
-## Estrutura do Projeto
+## Requisitos
+
+- Python 3.x
+- yt-dlp
+- ffmpeg
 
 ## Instalação
 
-1. Clone o repositório ou baixe os arquivos.
-2. Instale as dependências:
-   ```bash
-   pip install -r requirements.txt
+1. Instale o `yt-dlp`:
 
+2. Instale o `ffmpeg`. Siga as instruções no site oficial.
+
+## Uso
+
+Execute o script com:
