@@ -6,7 +6,7 @@ on:
       - develop
 
 jobs:
-  test:
+  check-application:
     runs-on: ubuntu-latest
 
     steps:
