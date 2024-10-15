@@ -2,7 +2,7 @@ import yt_dlp
 import os
 
 # Solicita a URL do vídeo
-video_url = input("Digite a URL do vídeo do YouTube: ")
+video_url = input("🎥 Digite a URL do vídeo do YouTube:\n")
 
 # Obtém o diretório de downloads do usuário
 downloads_dir = os.path.join(os.path.expanduser("."), "downloads")
@@ -23,6 +23,6 @@ try:
     with yt_dlp.YoutubeDL(ydl_opts) as ydl:
         ydl.download([video_url])
 
-    print("Áudio baixado com sucesso na pasta Downloads!")
+    print("\n✅ Áudio baixado com sucesso na pasta Downloads!\n")
 except Exception as e:
-    print(f"Ocorreu um erro: {e}")
+    print(f"\n❌ Ocorreu um erro: {e}\n")
